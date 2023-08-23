@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="full-page">
+        <div class="first">
+            <div class="sec">
+                <p></p>
+                <i  class="fa-brands fa-twitter"></i>
+                <p ></p>
+                <i class="fa-brands fa-instagram"></i>
+                <p ></p>
+                <i class="fa-brands fa-facebook-f"></i>
+                <p ></p>
+                <i class="fa-brands fa-youtube"></i>
+                <p ></p>
+                <i class="fa-brands fa-linkedin-in"></i>
+                <p></p>
+            </div>
+            <div class="two" >
+                <p><i class="fa-solid fa-phone"></i>+12-345-7896</p>
+                <p style="width: 1px; height:20px;background-color: white;"></p>
+                <p><i class="fa-solid fa-house"></i>landingpage.email.com</p>
+            </div>
+            <div >
+                <button type="button">REQUEST A CONSULT</button>
+            </div>
+        </div>
+        <div class="second">
+            <div>
+                <h2 style="font-size: 30px;"><strong>LANDING PAGE</strong></h2>
+            </div>
+            <div class="sec1">
+                <strong>
+                <a href="#">HOME</a>
+                <a href="#">Blog</a>
+                <a href="#">Page</a>
+                <a href="#">Services</a>
+                <a href="#">Contact</a>
+                <a href="#" style="background-color: rgb(234, 154, 7);">Buy Now</a>
+                </strong>
+            </div>
+            <div>
+                <i class="fa-solid fa-magnifying-glass" ></i>
+                            
+            </div>
+            
+        </div>
+        <div class="third">
+            <div class="sec2">
+                <img src="pic.jpeg" style="opacity: 0.8">
+                <div class="sec3">
+                    <p style=" width:2px; height:220px;
+                    background:linear-gradient(#ffa500,rgb(179, 96, 96),rgb(197, 19, 153));position: absolute;
+                     top:50%;left:11.2%"></p>
+                    <h4 style="position: absolute; top:54%; left:13%;">WE ARE CREATIVE</h4><br>
+                    <h2><strong>CREATIVE DIGITAL AGENCY</strong></h2>
+                    <p style="position: absolute; top:67%; left: 12.7%;word-break:break-all;width:40%;">In digital marketing , 
+                    a landing page is a standalone web page, created specifically for a marketing or advertising campaign.</p>
+                    <div>
+                        <button type="button" style="background:linear-gradient(to right,rgb(192, 101, 45),rgb(168, 33, 33),rgb(179, 24, 145));position: absolute;
+                        top:79%; left:13%;width: 10%;color: white;">GET MORE</button>
+                        <button type="button" style="position: absolute;top:79%;left:25%;width: 15%;">REQUEST CONSULTANT</button>
+
+                    </div>
+                    
+                </div>
+            </div>
+
+        </div>
+        <div class="fourth">
+            <div class="sec4" >
+                <h3><i class="fa-solid fa-rocket" ></i>LAUNCH BUSINESS</h3>
+                <p>A standlone web page, created specifically for a marketing or advertising campaign</p>
+            </div> 
+            <div class="sec4" style="padding-left:50px;">
+                <h3><i class="fa-solid fa-globe" ></i>ONLINE SUPPORT TEAM</h3>
+                <p>Online Support Team is the assistance and advice provided by a company .</p>
+            </div> 
+            <div class="sec4" style="padding-left:50px;">
+                <h3><i class="fa-regular fa-clock" ></i>TIME MANAGEMENT</h3>
+                <p>Time Management is the process of organizing and planning </p>
+            </div>        
+        </div>
+        <div class="fifth">
+            <div class="sec7">
+                
+                <h2>ABOUT US</h2>
+                <p></p>
+                <h4>15 Years,We passionate about achieving better results for our clients.</h4>
+                <h5 >We're optimistic for a future where people live healthier ,more informed,
+                more creative lives.We see a world where technology enhances human potential, 
+                and takes us into a new era of intelligence and program that everyone can benifit 
+                from.We let innovators create the next break throughs in machine intellihence.We 
+                are young and motavited company full of new ideas and energy.During the past years,we 
+                have accomplished a wide range of projects for various companies.We aim to supply to 
+                services and products to all our customers and contribute to having a marketplace where 
+                every business has equal oppurtinuties to grow.</h5>
+                <button type="submit" style="width:25;">READ MORE</button>
+            </div>
+            <div class="sec8">
+                <img src="pic1.jpg">
+            </div>
+        </div>
+        <div class="sixth">
+            <h2>OUR SERVICES</h2>
+            <P style="width: 60px ; height: 3px; margin-left: 11.1%;
+            background: linear-gradient(to right,rgb(188, 131, 53),rgb(198, 31, 31),rgb(166, 50, 145));"></P>
+            <div class="seventh">
+                <div class="sec9">
+                    <img src="pic2.jpg">
+                    <div class="sec10">
+                        <p style="text-align: center;">USER EXPERIENCE</p>
+                    </div>
+                </div>
+                <div class="sec9">
+                    <img src="pic3.jpg">
+                    <div class="sec11">
+                        <p>CREATIVE DESIGN</p>
+
+                    </div>
+                </div>
+                <div class="sec9">
+                    <img src="pic4.jpg"> 
+                    <div class="sec12">
+                        <p >RETIME READY</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+</body>
+</html>
+
+<!--CSS-->
+
+.full-page{
+    border: 1px solid black;
+    height:300vh
+}
+
+.first{
+    height:6vh;
+    width: 100%;
+    display: inline-flex;
+    gap:10%;
+    background:linear-gradient(to right,rgb(205, 141, 22),rgb(146, 54, 54),rgb(186, 19, 116));
+}
+
+.first .sec{
+    display: inline-flex;
+    margin-left: 10.5%;
+}
+
+.sec i,p{
+    margin: 8px;
+}
+
+.sec i{
+    color: white;
+    
+}
+
+.first .sec p{ 
+    width: 1px;
+    height:20px;
+    background-color: white;
+}
+
+.two{
+    display: inline-flex;
+}
+
+.two i,p{
+    color: white;
+}
+
+.first button{
+    color: white;
+    margin: 2px;
+}
+
+.second{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    gap: 9%; 
+}
+
+.second .sec1 a{
+    margin: 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.second i{
+    background-color: rgb(139, 121, 121);
+    width: 20px;
+    height: 13vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.third{
+   height: 80vh;
+}
+
+img{
+   background-size: cover;
+   width: 100%;
+   height: 80vh;
+}
+
+.sec3 h4{
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px -6px 3px  black;
+}
+
+.sec3 h2{
+    position: absolute;
+    top:58%;
+    left:13%;
+    letter-spacing: 1px;
+    font-size: 30px;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    -webkit-text-stroke-color: whitesmoke;
+    -webkit-text-stroke-width: 1px;
+    word-spacing: 4px;
+    text-shadow: 300px 0px 3px rgb(161, 152, 152);
+}
+
+button{
+    border: 1px solid white;
+    border-radius: 25px;
+    padding: 8px;
+    background: transparent;
+}
+
+.fourth{
+    height: 30vh;
+    background: linear-gradient(to right, rgb(203, 135, 71) ,rgb(146, 54, 54) ,rgb(143, 43, 128));
+    display: inline-flex;
+    color: white;
+    text-shadow: 0px 0px 2px white;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+.fourth .sec4{
+    padding-top: 20px;
+    display:inline-block;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding-left:130px;
+}
+
+.sec4 i{
+    padding-right: 20px;
+}
+
+.fifth{
+    height: 62vh;
+    display: inline-flex;
+    width: 100%;
+}
+
+.fifth .sec7{
+    height:60vh;
+    margin-left: 11%;
+    width: 700px;
+}
+
+.sec7 h2{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.sec7 h4 {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.sec7 p{
+    width: 10%;
+    height: 3px;
+    background: linear-gradient(to right ,rgb(239, 157, 6),rgb(155, 41, 41),rgb(186, 24, 159));
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.sec7 button{
+    border: 1px solid black;
+    background: linear-gradient(to right ,rgb(214, 121, 15),rgb(187, 49, 49),rgb(202, 44, 167));
+}
+
+h5{
+    line-height: 25px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.sec8 img{
+    width: 250px;
+    height: 250px;
+    padding-top: 33%;
+    padding-left: 30%;
+}
+
+.sixth{
+    height:70vh;
+    background-color:rgba(237, 235, 235, 0.991);
+}
+
+.sixth h2{
+    padding-left:11%;
+}
+
+.seventh {
+    height: 33vh;
+    margin-left: 11%;
+}
+
+.seventh .sec9 img{
+    width: 300px;
+    height: 200px;
+}
+
+.sec9{
+    display: inline-flex;
+    white-space: nowrap;
+    padding: 3px;
+}
+
+.sec9 .sec10 p{
+    border:1px solid white;
+    color: black;
+    height:4vh;
+    width:15.2%;
+    position: absolute;
+    left: 19.7%;
+    top: 232%;
+    background-color: white;
+    text-align: center;
+    padding-top:10px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.sec9 .sec11 p{
+    border:1px solid white;
+    color: black;
+    height:4vh;
+    width:15%;
+    position: absolute;
+    left: 44.4%;
+    top: 232%;
+    background-color: white;
+    text-align: center;
+    padding-top:10px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.sec9 .sec12 p{
+    color: black;
+    border:1px solid white;
+    height:4vh;
+    width:15.2%;
+    position: absolute;
+    left: 68.8%;
+    top: 232%;
+    background-color: white;
+    text-align: center;
+    padding-top:10px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
